@@ -6,8 +6,8 @@ import (
 	"strings"
 )
 
-const ORDER = 4 // each node has a max of 3 children
-// so a max of 3 - 1 = 2 keys
+const ORDER = 4 // each node has a max of 4 children
+// so a max of 4 - 1 = 3 keys can be held by a node
 
 type Node struct {
 	keys     []int
